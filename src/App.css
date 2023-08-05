@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Nunito:wght@200;600;700&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Mulish', sans-serif;
 }
  
 .app {
@@ -12,7 +14,7 @@
   width: 100%;
   height: 100vh;
 }
- 
+
 .container {
   box-shadow: 0px 0px 12px #ccc;
   border-radius: 8px;

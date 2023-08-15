@@ -35,7 +35,7 @@ const Service = () => {
                     <p class="card-text">
                       Get your personalized recipes content according to your available ingredients with you.
                     </p>
-                    <a href="#" class="btn btn-success">
+                    <a href="/" class="btn btn-success">
                       Get It
                     </a>
                   </div>
@@ -49,7 +49,7 @@ const Service = () => {
                     <p class="card-text">
                       Recipes Community based on the public rating system
                     </p>
-                    <a href="#" class="btn btn-success">
+                    <a href="/" class="btn btn-success">
                       Check It
                     </a>
                   </div>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import bg from "./Images/circle.png";
 import Common from "./Common";
 

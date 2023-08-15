@@ -1,5 +1,4 @@
 import React from 'react';
-import bg from './Images/avatar.png'
 
 const Common = (props) => {
     return (

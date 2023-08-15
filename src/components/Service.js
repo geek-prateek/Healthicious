@@ -2,6 +2,7 @@ import React from "react";
 import bmi from "./Images/info2.jpg";
 import diet from "./Images/diet.jpg";
 import item from "./Images/public.jpg";
+import Talk from "./Talk";
 
 const Service = () => {
   return (
@@ -59,6 +60,7 @@ const Service = () => {
           </div>
         </div>
       </div>
+      <Talk/>
     </>
   );
 };

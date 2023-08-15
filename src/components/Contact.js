@@ -1,4 +1,5 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
+import Talk from "./Talk";
 
 const Contact = () => {
     const[data, setData] = useState({
@@ -93,6 +94,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Talk/>
     </>
   );
 };

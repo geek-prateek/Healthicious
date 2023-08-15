@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import BMI from "./components/BMI";
 import Footer from "./components/Footer";
+import Talk from "./components/Talk";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/service" element={<Service key="service" />} />
           <Route exact path="/contact" element={<Contact key="contact" />} />
           <Route exact path="/bmi" element={<BMI key="bmi" />} />
+          <Route exact path="/talk" element={<Talk key="talk" />} />
         </Routes>
         <Footer/>
       </Router>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Talk from './Talk';
 
 const Common = (props) => {
     return (
@@ -24,7 +25,10 @@ const Common = (props) => {
                 </div>
             </div>
         </div>
+        <Talk/>
     </section>
+        
+
         </>
     )
 }

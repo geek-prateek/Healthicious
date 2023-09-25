@@ -36,7 +36,7 @@ const Service = () => {
                     <p class="card-text">
                       Get your personalized recipes content according to your available ingredients with you.
                     </p>
-                    <a href="/" class="btn btn-success">
+                    <a href="/ingredients" class="btn btn-success">
                       Get It
                     </a>
                   </div>

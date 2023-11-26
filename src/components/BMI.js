@@ -20,7 +20,6 @@ const BMI = () => {
     fetch(apiUrl)
     .then((response) => response.json())
     .then((data) => {
-      // Ensure that 'data' is an array before setting 'recipes' state
       if (Array.isArray(data)) {
         setRecipes(data);
       } else {
